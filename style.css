@@ -1,0 +1,183 @@
+.sidebar {
+  position: fixed;
+  margin-top: 15px;
+  margin-left: 5px;
+  width: 200px;
+  height: 600px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ED3C57;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: rgb(200, 200, 200);
+}
+
+#page-content {
+  margin-left: 60px;
+  margin-right: 0px;
+}
+
+body {
+color: black;
+background-color: rgba(255, 255, 255, 0.9);
+text-align: center;
+}
+
+h1 {
+color: #ED3C57;
+font-size: 30px;
+font-family: Courier;
+}
+
+h2 {
+color: rgb(70, 70, 70);
+font-size: 22px;
+font-family: Courier;
+}
+
+h3 {
+color: rgb(130, 130, 130);
+font-size: 16px;
+font-family: Courier;
+}
+
+h4 {
+color: rgb(70, 70, 70);
+font-size: 22px;
+font-family: Courier;
+font-weight: bold;
+}
+
+h5 {
+color: rgb(100, 100, 100);
+font-size: 19px;
+font-family: Courier;
+}
+
+.moviebox {
+display: flex;
+justify-content: center;
+}
+
+.moviesection {
+padding: 25px;
+}
+
+#movie1 {
+padding: 10px;
+}
+
+#movie2 {
+padding: 10px;
+}
+
+#movie3 {
+padding: 10px;
+}
+
+.destinations {
+display: flex;
+justify-content: center;
+}
+
+.travelsection {
+padding: 25px;
+}
+
+#elephant {
+padding: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#bagan {
+padding: 10px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+#barcelona {
+padding: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.img-circle{
+border-radius: 50%;
+}
+
+p {
+color: rgb(100, 100, 100);
+font-size: 14px;
+font-family: Courier;
+}
+
+a {
+  color: rgba(100, 100, 100, 0.7);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Courier;
+}
+
+a:hover {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+
+.Intro {
+  padding: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-top: 2px solid #ED3C57;
+  border-bottom: 2px solid #ED3C57;
+  border-left: 2px solid #ED3C57;
+  border-right: 2px solid #ED3C57;
+}
+
+.button {
+  background: #9E9FA3;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.travelsection {
+   padding: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-top: 2px solid #ED3C57;
+  border-bottom: 2px solid #ED3C57;
+  border-left: 2px solid #ED3C57;
+  border-right: 2px solid #ED3C57;
+}
+
+.moviesection {
+  padding: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-top: 2px solid #ED3C57;
+  border-bottom: 2px solid #ED3C57;
+  border-left: 2px solid #ED3C57;
+  border-right: 2px solid #ED3C57;
+}
